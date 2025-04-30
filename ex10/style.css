@@ -1,0 +1,11 @@
+#campoTexto {
+    padding: 5px;
+    font-size: 16px;
+  }
+  #botaoTexto {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
