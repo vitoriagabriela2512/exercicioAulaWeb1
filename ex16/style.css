@@ -1,0 +1,15 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #botaoMensagem {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }

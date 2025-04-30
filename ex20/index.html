@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ExercicioAulaWeb020</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="tabela">
+        <tr>
+          <th>Tipo</th>
+          <th>Exemplo</th>
+        </tr>
+      </table>
+      <button id="preencherBtn">Preencher Tabela</button>
+    
+      <script>
+        document.getElementById("preencherBtn").onclick = function () {
+          document.getElementById("tabela").innerHTML += "<tr><td>var</td><td>var nome = 'João';</td></tr>";
+          document.getElementById("tabela").innerHTML += "<tr><td>let</td><td>let idade = 25;</td></tr>";
+          document.getElementById("tabela").innerHTML += "<tr><td>const</td><td>const pi = 3.14;</td></tr>";
+        };
+      </script>
+ 
+</body>
+</html>
